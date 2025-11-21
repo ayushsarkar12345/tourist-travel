@@ -1,11 +1,11 @@
-/* --- General Styles --- */
+
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f7f6; /* Light gray background standard */
+    background-color: #f4f7f6; 
     color: #333;
     margin: 0;
     padding: 0;
-    /* This ensures the color change happens smoothly */
+  
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
@@ -22,7 +22,6 @@ header h1 {
     font-size: 2.5rem;
 }
 
-/* --- Container & Cards --- */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -88,4 +87,5 @@ body.dark-mode {
 body.dark-mode .card {
     background-color: #16213e;
     box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+
 }
